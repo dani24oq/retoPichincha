@@ -1,0 +1,424 @@
+{
+	"id": "52442b41-21c0-4058-b559-3d9ffefc68bf",
+	"name": "Banco Pichincha",
+	"timestamp": "2023-07-20T19:20:07.856Z",
+	"collection_id": "14171021-70b8e2aa-1c50-4952-b8a5-0a9589003369",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 90,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-07-20T19:20:01.918Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "b030f3dc-ddf9-4b19-b9af-fae1b16e580e",
+			"name": "Login",
+			"url": "https://petstore.swagger.io/v2/user/login?username=UserTest&password=testpass",
+			"time": 88,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 600ms": true,
+				"The response has all properties": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response time is less than 600ms": {
+					"pass": 5,
+					"fail": 0
+				},
+				"The response has all properties": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				504,
+				88,
+				95,
+				88,
+				88
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true,
+					"The response has all properties": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true,
+					"The response has all properties": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true,
+					"The response has all properties": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true,
+					"The response has all properties": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true,
+					"The response has all properties": true
+				}
+			]
+		},
+		{
+			"id": "63426b88-23fd-4937-9d1c-5be75931e5ac",
+			"name": "Create user",
+			"url": "https://petstore.swagger.io/v2/user",
+			"time": 90,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 600ms": true,
+				"The response has all properties": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response time is less than 600ms": {
+					"pass": 5,
+					"fail": 0
+				},
+				"The response has all properties": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				96,
+				92,
+				85,
+				91,
+				90
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true,
+					"The response has all properties": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true,
+					"The response has all properties": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true,
+					"The response has all properties": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true,
+					"The response has all properties": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true,
+					"The response has all properties": true
+				}
+			]
+		},
+		{
+			"id": "22e0f221-b073-455f-a311-bc139c6fbf6c",
+			"name": "Find user",
+			"url": "https://petstore.swagger.io/v2/user/TestUser15",
+			"time": 88,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 600ms": true,
+				"The response has all properties": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response time is less than 600ms": {
+					"pass": 5,
+					"fail": 0
+				},
+				"The response has all properties": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				86,
+				86,
+				90,
+				90,
+				88
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true,
+					"The response has all properties": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true,
+					"The response has all properties": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true,
+					"The response has all properties": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true,
+					"The response has all properties": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true,
+					"The response has all properties": true
+				}
+			]
+		},
+		{
+			"id": "44742e41-a61d-4495-af27-7f26b37084eb",
+			"name": "Update user",
+			"url": "https://petstore.swagger.io/v2/user/TestUser15",
+			"time": 105,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 600ms": true,
+				"The response has all properties": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response time is less than 600ms": {
+					"pass": 5,
+					"fail": 0
+				},
+				"The response has all properties": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				100,
+				109,
+				88,
+				86,
+				105
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true,
+					"The response has all properties": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true,
+					"The response has all properties": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true,
+					"The response has all properties": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true,
+					"The response has all properties": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true,
+					"The response has all properties": true
+				}
+			]
+		},
+		{
+			"id": "977416ce-bf12-4938-940b-72c11ad2baed",
+			"name": "Find updated user",
+			"url": "https://petstore.swagger.io/v2/user/TestUser15",
+			"time": 86,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 600ms": true,
+				"The response has all properties": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response time is less than 600ms": {
+					"pass": 5,
+					"fail": 0
+				},
+				"The response has all properties": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				88,
+				97,
+				103,
+				88,
+				86
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true,
+					"The response has all properties": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true,
+					"The response has all properties": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true,
+					"The response has all properties": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true,
+					"The response has all properties": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true,
+					"The response has all properties": true
+				}
+			]
+		},
+		{
+			"id": "4ae78022-118b-44d2-b81a-9fcc87b99515",
+			"name": "Logout",
+			"url": "https://petstore.swagger.io/v2/user/logout",
+			"time": 88,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 600ms": true,
+				"The response has all properties": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response time is less than 600ms": {
+					"pass": 5,
+					"fail": 0
+				},
+				"The response has all properties": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				88,
+				90,
+				88,
+				87,
+				88
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true,
+					"The response has all properties": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true,
+					"The response has all properties": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true,
+					"The response has all properties": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true,
+					"The response has all properties": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true,
+					"The response has all properties": true
+				}
+			]
+		}
+	],
+	"count": 5,
+	"totalTime": 3148,
+	"collection": {
+		"requests": [
+			{
+				"id": "b030f3dc-ddf9-4b19-b9af-fae1b16e580e",
+				"method": "GET"
+			},
+			{
+				"id": "63426b88-23fd-4937-9d1c-5be75931e5ac",
+				"method": "POST"
+			},
+			{
+				"id": "22e0f221-b073-455f-a311-bc139c6fbf6c",
+				"method": "GET"
+			},
+			{
+				"id": "44742e41-a61d-4495-af27-7f26b37084eb",
+				"method": "PUT"
+			},
+			{
+				"id": "977416ce-bf12-4938-940b-72c11ad2baed",
+				"method": "GET"
+			},
+			{
+				"id": "4ae78022-118b-44d2-b81a-9fcc87b99515",
+				"method": "GET"
+			}
+		]
+	}
+}

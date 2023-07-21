@@ -1,0 +1,7 @@
+1. The request has a good time of execution, always below 600 ms and most of them below 200 ms
+2. The system requires you to log in before doing the creation and update process, however, there is no token to retrieve and use in other requests as an authorization process.
+3. For the creation process the most suitable response should be 201 which means "successful creation"
+4. The email property doesn´t validate that the value really has an email pattern
+5. Id property receives string values, but the string value must be an integer
+6. User Status property receives string values, but the string value must be an integer
+7. Username, firstName, lastName, email, password, and phone properties do not accept non-string values, however, they accept even just special characters with no letters
