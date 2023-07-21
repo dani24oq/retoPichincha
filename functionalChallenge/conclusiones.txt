@@ -1,0 +1,5 @@
+1. Platform is easy to work with
+2. Several elements don´t have any validation for the input data, for example, you can fill the First Name field just with numbers, or the Telephone field just with letters
+3. Most of the elements needed for the test have id, and the others are not so difficult to be called, however, the best practice is to add unique IDs and Names for the most number of elements that could be related to the testing since this makes the automation code easier to read and decrease the resources needed to execute the automation
+4. Platform works at a good speed, not so much time is needed for the elements to be loaded
+5. Platform is working as expected following the instructions, but validations must be added to the input fields
